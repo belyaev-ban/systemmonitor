@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "domain": "systemmonitor",
   "name": "System Monitor",
   "codeowners": ["@gjohansson-ST"],
