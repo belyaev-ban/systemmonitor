@@ -736,7 +736,8 @@ class SystemMonitorSensor(CoordinatorEntity[MonitorCoordinator[dataT]], SensorEn
     """Implementation of a system monitor sensor."""
 
     _attr_has_entity_name = True
-    _attr_entity_category = EntityCategory.DIAGNOSTIC
+    # Commented out in order to enable visible and enabled sensors on automatic dashboards
+    # _attr_entity_category = EntityCategory.DIAGNOSTIC
     entity_description: SysMonitorSensorEntityDescription[dataT]
 
     def __init__(
