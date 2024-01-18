@@ -1,5 +1,6 @@
 # Home Assistant: System Monitor
 This is forked version of the System Monitor integration from the Home Assistant core (v2024.1.3), originally created by @gjohansson-ST
+
 This custom integration removes the diagnostic category from System Monitor entities, making them visible on automatic dashboards.
 
 
@@ -47,9 +48,11 @@ From this point on all enabled and visible System Monitor entities should be ava
 
 ## Disclaimer
 This modified System Monitor integration is a personal project and is not officially endorsed by the Home Assistant community or maintainers.
+
 Use it at your own discretion.
 While efforts have been made to ensure compatibility and functionality, there is no guarantee of ongoing support or updates.
 The original System Monitor integration is part of Home Assistant, and any modifications made here are specific to personal preferences.
+
 This project is provided as-is, and the author takes no responsibility for any issues, data loss, or other consequences that may arise from its use.
 Feedback and contributions are welcome, but there is no obligation to provide support.
 Feel free to contribute, report issues, or provide feedback by creating an issue or pull request.
